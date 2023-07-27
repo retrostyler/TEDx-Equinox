@@ -1,19 +1,331 @@
-/* 
-landing page 
-*/
+.landingpage{
+    width: 1264px;
+    height: 720px;
+    background-color: wheat;
+}
 
-/* 
-about page
-*/
+.aboutpage{
+    width: 1264px;
+    height: 720px;
+    background-color: black; 
+    position: relative;
+}
+.aboutpage .about{ 
+position: relative; 
+width: 595px;
+height: 140px;
+left: 30px;
+top: 30px; 
+background: #FFFFFF;
+border-radius: 40px;
 
-/* 
-speakers page 
-*/
+}
+.aboutcontent{
+position: relative;
+width: 172px;
+height: 68px;
+left: 50px;
+top: 36px;
 
-/* 
-sponsors page 
-*/
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 68px;
+text-align: center;
+color: #232323;
+}
+.aboutpage .content{ 
+position: absolute;
+width: 595px;
+height: 660px;
+left: 655px;
+top: 30px; 
+background: #FF2B06;
+border-radius: 40px; 
+}
+.aboutpage .content .text{
+position: absolute;
+width: 511px;
+height: 570px;
+left: calc(50% - 511px/2);
+top: calc(50% - 570px/2); 
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+}
 
-/* 
-contact page 
-*/
+.aboutpage .imagesection{ 
+position: absolute;
+width: 595px;
+height: 490px;
+left: 30px;
+top: 200px; 
+background: #232323;
+border-radius: 40px; 
+}
+.aboutpage .imagesection .image{
+position: absolute;
+width: 452.66px;
+height: 400px;
+left: calc(50% - 452.66px/2 - 0.17px);
+top: calc(50% - 400px/2);
+
+ 
+}
+ 
+
+
+ 
+ 
+
+ 
+
+.speakerspage{
+    width: 1264px;
+    height: 720px;
+    background-color: rgb(245, 179, 179);
+}
+
+.sponsorspage{
+    width: 1264px;
+    height: 720px;
+    background-color: rgb(179, 245, 240);
+}
+
+
+.contactpage{
+    width: 1264px;
+    height: 720px;
+    background-color: black;
+    position: relative;
+}
+.contactpage .contact{ 
+position: relative;
+width: 595px;
+height: 140px;
+left: 30px;
+top: 30px; 
+background: #FFFFFF;
+border-radius: 40px;
+
+}
+.contactpage .contact .contactcontent{
+position: absolute;
+width: 322px;
+height: 68px;
+left: 50px;
+top: 36px; 
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 68px; 
+text-align: center; 
+color: #232323;
+}
+
+.contactpage .imagesection{ 
+position: absolute;
+width: 595px;
+height: 550px;
+left: 655px;
+top: 30px; 
+background: #232323;
+border-radius: 40px;
+}
+
+.contactpage .imagesection .image{
+position: absolute;
+width: 508.81px;
+height: 490px;
+left: calc(50% - 508.81px/2 - 0.1px);
+top: calc(50% - 490px/2); 
+}
+
+.contactpage .mail{ 
+position: absolute;
+width: 595px;
+height: 100px;
+left: 30px;
+top: 200px; 
+background: #FF2B06;
+border-radius: 70px; 
+}
+.contactpage .mail .content{
+position: absolute;
+width: 363px;
+height: 43px;
+left: calc(50% - 363px/2);
+top: calc(50% - 43px/2 + 0.5px); 
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 43px;
+text-align: center; 
+color: #232323;
+}
+.contactpage .phone{ 
+position: absolute;
+width: 595px;
+height: 100px;
+left: 30px;
+top: 330px; 
+background: #FF2B06;
+border-radius: 70px; 
+}
+.contactpage .phone .content{
+    position: absolute;
+    width: 266px;
+    height: 43px;
+    left: calc(50% - 266px/2 + 0.5px);
+    top: calc(50% - 43px/2 + 0.5px); 
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center; 
+    color: #232323;
+}
+.contactpage .address{ 
+position: absolute;
+width: 595px;
+height: 120px;
+left: 30px;
+top: 460px; 
+background: #FF2B06;
+border-radius: 80px;  
+}
+.contactpage .address .content{ 
+    position: absolute;
+    width: 489px;
+    height: 64px;
+    left: calc(50% - 489px/2);
+    top: calc(50% - 64px/2); 
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center; 
+    color: #232323;
+}
+.contactpage .facebook{ 
+position: absolute;
+display: flex;
+width: 178px;
+height: 80px;
+left: 30px;
+top: 610px; 
+background: #FF2B06;
+border-radius: 80px; 
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.contactpage .facebook .icon{
+    display: flex;
+    position: absolute;
+    width: 40px;
+    height: 39.9px;
+    font-size: 52px;
+    justify-content: center;
+    align-items: center;
+    color: blacks;
+    text-align: center;
+    left: calc(50% - 40px/2);
+    top: calc(50% - 39.9px/2 - 0.05px); 
+    /* background: #232323; */
+}
+.contactpage .facebook  a{
+    color: #212121;
+    text-decoration: none;
+}
+
+.contactpage .instagram{ 
+position: absolute;
+width: 178px;
+height: 80px;
+left: 239px;
+top: 610px; 
+background: #FF2B06;
+border-radius: 80px; 
+}
+.contactpage .instagram .icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    left: calc(50% - 40px/2);
+    top: calc(50% - 40px/2); 
+    font-size: 52px;
+}
+.contactpage .instagram a{
+    color:  black;
+    text-decoration: none;
+}
+.contactpage .linkedin { 
+position: absolute;
+width: 178px;
+height: 80px;
+left: 447px;
+top: 610px; 
+background: #FF2B06;
+border-radius: 80px;
+}
+.contactpage .linkedin .icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    left: calc(50% - 40px/2);
+    top: calc(50% - 40px/2);
+    
+    font-size: 52px;
+}
+.contactpage .linkedin a{
+    color: black;
+    text-decoration: none;
+}
+
+.contactpage .copyright{
+position: absolute;
+width: 595px;
+height: 80px;
+left: 655px;
+top: 610px;
+background: #FFFFFF;
+border-radius: 60px;
+
+
+ 
+
+
+
+
+}
+.contactpage .copyright .content{
+    position: absolute;
+    width: 382px;
+    height: 41px;
+    left: calc(50% - 382px/2 + 0.5px);
+    top: calc(50% - 41px/2 + 0.5px);
+    
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    text-align: center;
+    
+    /* Light Black */
+    color: #232323;
+}
+
