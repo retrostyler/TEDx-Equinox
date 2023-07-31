@@ -1,4 +1,84 @@
 body{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li{
+    display: inline-block;
+    padding: 1em 2em;
+}
+.navbar a{
+    padding: 1em 1.34em;
+    background-color: #232323;
+    border: 0px #232323;
+    border-radius: 4.8em;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+#tedxlogo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+#title{
+    text-align: center;
+    font-size: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#countdown li{
+    display: inline-block;
+    min-width: 25%;
+    max-height: 15em;
+    font-size: 0.75em;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    border: 0px white;
+    border-radius: 30px;
+    text-align: center;
+    margin: 2% 1.5%;
+    padding: 2em 0.01em;
+}
+#countdown ul{
+    padding: 20px 3px;
+}
+#countdown li span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    font-weight: lighter;
+    font-size: 4.5rem;
+}
+#register{
+    background-color: #232323;
+    color: white;
+    border: 0px #232323;
+    margin: 2% 7.5%;
+    max-height: 28%;
+    border-radius: 40px;
+    font-size: 50px;
+}
+#arrow{
+    margin-left: 232px;
+}
+#logocount{
+    list-style: none;
+    display: flex;
+}
+#logocount li{
+    margin: 2px;
+}
     margin: 0px;
     background-color: #000;
 }
