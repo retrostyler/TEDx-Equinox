@@ -79,7 +79,12 @@ body{
 #logocount li{
     margin: 2px;
 }
-
+    margin: 0px;
+    background-color: #000;
+}
+/* 
+landing page 
+*/
 .aboutpage{
     width: 1264px;
     height: 720px;
@@ -96,13 +101,236 @@ background: #FFFFFF;
 border-radius: 40px;
 
 }
-.aboutcontent{
-position: relative;
-width: 172px;
-height: 68px;
-left: 50px;
-top: 36px;
 
+.speakers{
+    height: 100vh;
+    background: var(--black, #000);
+    display: flex;
+    justify-content: space-around;
+}
+.lefty{
+    flex-basis: 0;
+    margin-top: 4vh;
+    width: fit-content;
+}
+.righty{
+    float: right;
+    flex-basis: 0;
+    margin-top: 2vh;
+    width: fit-content;
+}
+
+.headSpkrs{
+    display: flex;
+    border-radius: 40px;
+    background: var(--white, #FFF);
+    padding: 36px 333px 36px 50px;
+    align-items: center;
+    width: auto;
+}
+.spkrsText{
+    color: var(--light-black, #232323);
+    text-align: center;
+    font-family: Satoshi Variable;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.spkrsAbout-l{
+    display: flex;
+    width: 595px;
+    height: 230px;
+    padding: 42px 30px;
+    margin-top: 2vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: var(--red, #FF2B06);
+}
+
+.spkrsAboutText-l{
+    width: 520px;
+    flex-shrink: 0;
+    color: var(--light-black, #232323);
+    font-family: Satoshi Variable;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+
+.spkrsAbout-r{
+    display: flex;
+    width: 595px;
+    height: 230px;
+    padding: 42px 30px;
+    margin-top: 2vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: var(--light-black, #232323);
+}
+
+.spkrsAboutText-r{
+    width: 520px;
+    flex-shrink: 0;
+    color: var(--white, #FFF);
+    font-family: Satoshi Variable;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+
+.spkrLayer{
+   display: flex; 
+   height: min-content;
+   margin-top: 2vh;
+   justify-content: flex-start;
+}
+.spkrsPhoto-l{
+    border-radius: 40px;
+    background: var(--light-black, #232323);
+    width: 199px;
+    height: 184px;
+}
+.spkrsPhoto-r{
+    border-radius: 40px;
+    background: var(--red, #FF2B06);
+    width: 199px;
+    height: 184px;
+}
+.spkrsTitleBlock-l{
+    width: 381px;
+    height: 120px;
+    padding: 45px 30px 20px 30px;
+    margin-left: 2vh;
+    background: var(--light-black, #232323);        
+    border-radius: 40px;
+}
+.spkrsTitleBlock-r{
+    width: 381px;
+    height: 120px;
+    padding: 45px 30px 20px 30px;
+    margin-left: 2vh;
+    background: var(--red, #FF2B06);       
+    border-radius: 40px;
+}
+.spkrsTitle-l{  
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;  
+}
+
+.spkrsTitleText-1-l{
+    color: var(--white, #FFF);
+    font-family: Satoshi Variable;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+.spkrsTitleText-2-l{
+    color: var(--white, #FFF);
+    font-family: Satoshi Variable;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+}
+
+.spkrsTitleText-1-r{
+    color: var(--light-black, #232323);
+    font-family: Satoshi Variable;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+.spkrsTitleText-2-r{
+    color: var(--light-black, #232323);
+    font-family: Satoshi Variable;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+}
+.spkrsNav{
+    display: flex;
+    margin-top: 2vh;
+}
+.arrowL{
+    display: flex;
+    width: 290px;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 70px;
+    background: var(--white, #FFF);
+}
+
+.arrowR{
+    display: flex;
+    width: 290px;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 4vh;
+    border-radius: 70px;
+    background: var(--white, #FFF);   
+}
+
+
+@media screen and (max-width: 825px) {
+    .speakers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .lefty{
+        margin-left: 0vb;
+    }
+    .righty{
+        margin-left: 0vb;
+    }
+
+    .headSpkrs{
+        height: 1.5rem;
+        flex-shrink: 0;
+        border-radius: 2.5rem;
+    }
+    .spkrsText{
+        text-align: center;
+        width: max-content;
+        font-size: 2.5rem;
+        line-height: normal;
+        margin-top: -1vh;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    .speakers{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }  
+
+}
+
+.aboutcontent{
+    position: relative;
+    width: 172px;
+    height: 68px;
+    left: 50px;
+    top: 36px;
 font-family: 'Satoshi Variable';
 font-style: normal;
 font-weight: 700;
@@ -356,13 +584,6 @@ left: 655px;
 top: 610px;
 background: #FFFFFF;
 border-radius: 60px;
-
-
- 
-
-
-
-
 }
 .contactpage .copyright .content{
     position: absolute;
