@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=0.5, user-scalable=no">
@@ -8,257 +9,296 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<nav class="navbar">
-    <ul>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#speakers">SPEAKERS</a></li>
-        <li><a href="#sponsors">SPONSORS</a></li>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#speakers">SPEAKERS</a></li>
+            <li><a href="#sponsors">SPONSORS</a></li>
+        </ul>
+    </nav>
+    <img src="images/TEDx Logo.png" alt="tedxlogo" id='tedxlogo'>
+    <h1 id='titleLanding'>EQUINOX</h1>
+    <ul id="logocount">
+        <li><img src="images/Logo Section.png" alt="equinoxlogo" id='equinoxlogo'></li>
+        <li>
+            <div id="countdown">
+                <ul class="timer">
+                    <li><span id="days"></span>DAYS</li>
+                    <li><span id="hours"></span>HOURS</li>
+                    <li><span id="minutes"></span>MINUTES</li>
+                    <li><span id="seconds"></span>SECONDS</li>
+                </ul>
+            </div>
+            <button id="register" type="button">REGISTER<img id="arrow" src="images/Arrow.png" alt="redirect"></button>
+        </li>
     </ul>
-</nav>
-<img src="images/TEDx Logo.png" alt="tedxlogo" id = 'tedxlogo'>
-<h1 id = 'titleLanding'>EQUINOX</h1>
-<ul id="logocount">
-    <li><img src="images/Logo Section.png" alt="equinoxlogo" id = 'equinoxlogo'></li>
-    <li>
-        <div id="countdown">
-            <ul class="timer" >                                                 
-                <li><span id="days"></span>DAYS</li>
-                <li><span id="hours"></span>HOURS</li>
-                <li><span id="minutes"></span>MINUTES</li>
-                <li><span id="seconds"></span>SECONDS</li>
-            </ul>
-        </div>
-        <button id="register" type="button">REGISTER<img id="arrow" src="images/Arrow.png" alt="redirect"></button> 
-    </li>
-</ul>
-<!--     
+    <!--     
     landing page        
      -->
 
- <div class="aboutpage">
-    <div class="about">
-        <div class="aboutcontent">ABOUT</div>
-    </div>
-    <div class="content">
-        <div class="text">
-            Light is a perennial symbol of the qualities most revered by the human mind - truth, beauty, and goodness. Illumination or enlightenment - the conferring of light unto humanity and their emergence from darkness and ignorance - is considered the most exalted state attainable by humankind. The Sun - the ultimate source of light and life, has universally inspired worship, works, wonder and wisdom.
-<br>
-Apricity, a seventeenth century coinage, is defined as the warmth of the Sun in winter. A felicitous word by all means, Apricity is one of the most benign manifestations of the Sun, a phenomenon of pure gentleness. In desolation, the first, glimmer of hope, in slumber, the event of awakening; in intellectual barrenness, the lambent glow of inspiration; and, of the most beautiful winter.
+    <div class="aboutpage">
+
+        <div class="leftaboutcontainer">
+            <div class="about">
+                <div class="aboutcontent">ABOUT</div>
+            </div>
+            <div class="imagesection">
+                <img src="about.jpeg" class="image" alt="">
+            </div>
         </div>
+
+        <div class="content">
+            <div class="text">
+                Light is a perennial symbol of the qualities most revered by the human mind - truth, beauty, and
+                goodness. Illumination or enlightenment - the conferring of light unto humanity and their emergence from
+                darkness and ignorance - is considered the most exalted state attainable by humankind. The Sun - the
+                ultimate source of light and life, has universally inspired worship, works, wonder and wisdom.
+                <br>
+                Apricity, a seventeenth century coinage, is defined as the warmth of the Sun in winter. A felicitous
+                word by all means, Apricity is one of the most benign manifestations of the Sun, a phenomenon of pure
+                gentleness. In desolation, the first, glimmer of hope, in slumber, the event of awakening; in
+                intellectual barrenness, the lambent glow of inspiration; and, of the most beautiful winter.
+            </div>
+        </div>
+
     </div>
-    <div class="imagesection">
-        <img src="about.jpeg" class="image" alt="">  
-</div>
-</div>
 
 
-<div class="speakers">
-    <div class="lefty">
-        <div class="headSpkrs">
-            <div class="spkrsText">SPEAKERS</div>
-        </div>  
-        <div class="spkrsAbout-l">
-            <div class="spkrsAboutText-l">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero velit, imperdiet a fermentum at, sollicitudin vel nibh. Vivamus tincidunt massa vel luctus scelerisque. Praesent cursus nibh orci, in dapibus turpis placerat a. Vestibulum ac felis quis felis euismod hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero velit, imperdiet a fermentum at, sollicitudin vel nibh felis quis felis. Vestibulum ac felis quis felis euismod hendrerit.</div>
-        </div>
-        <div class="spkrLayer">
-            <div class="spkrsPhoto-l"></div>
-            <div class="spkrsTitleBlock-l">
-                <div class="spkrsTitle-l">
-                    <div class="spkrsTitleText-1-l">lorem ipsum dolor</div>
-                    <div class="spkrsTitleText-2-l">Praesent cursus nibh orci, in dapibus turpis placerat a.</div>
+    <div class="speakers">
+        <div class="lefty">
+            <div class="headSpkrs">
+                <div class="spkrsText">SPEAKERS</div>
+            </div>
+            <div class="spkrsAbout-l">
+                <div class="spkrsAboutText-l">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero
+                    velit, imperdiet a fermentum at, sollicitudin vel nibh. Vivamus tincidunt massa vel luctus
+                    scelerisque. Praesent cursus nibh orci, in dapibus turpis placerat a. Vestibulum ac felis quis felis
+                    euismod hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero velit,
+                    imperdiet a fermentum at, sollicitudin vel nibh felis quis felis. Vestibulum ac felis quis felis
+                    euismod hendrerit.</div>
+            </div>
+            <div class="spkrLayer">
+                <div class="spkrsPhoto-l"></div>
+                <div class="spkrsTitleBlock-l">
+                    <div class="spkrsTitle-l">
+                        <div class="spkrsTitleText-1-l">lorem ipsum dolor</div>
+                        <div class="spkrsTitleText-2-l">Praesent cursus nibh orci, in dapibus turpis placerat a.</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="righty">
-        <div class="spkrsAbout-r">
-            <div class="spkrsAboutText-r">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem sunt dolores quo ad aliquid, dolore repellendus voluptates tempore vero? Unde dicta assumenda atque amet non quidem, aut quod nesciunt nisi.</div>
-        </div>
-        <div class="spkrLayer">
-            <div class="spkrsPhoto-r"></div>
-            <div class="spkrsTitleBlock-r">
-                <div class="spkrsTitle-r">
-                    <div id="title" class="spkrsTitleText-1-r">lorem ipsum dolor</div>
-                    <div id="description" class="spkrsTitleText-2-r">Praesent cursus nibh orci, in dapibus turpis placerat a.</div>
+        <div class="righty">
+            <div class="spkrsAbout-r">
+                <div class="spkrsAboutText-r">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem
+                    sunt dolores quo ad aliquid, dolore repellendus voluptates tempore vero? Unde dicta assumenda atque
+                    amet non quidem, aut quod nesciunt nisi.</div>
+            </div>
+            <div class="spkrLayer">
+                <div class="spkrsPhoto-r"></div>
+                <div class="spkrsTitleBlock-r">
+                    <div class="spkrsTitle-r">
+                        <div id="title" class="spkrsTitleText-1-r">lorem ipsum dolor</div>
+                        <div id="description" class="spkrsTitleText-2-r">Praesent cursus nibh orci, in dapibus turpis
+                            placerat a.</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="spkrsNav">
-            <div onclick="leftClick()" class="arrowL"><svg xmlns="http://www.w3.org/2000/svg" width="75" height="38" viewBox="0 0 75 38" fill="none">
-                <path d="M1.23223 17.2322C0.255922 18.2085 0.255922 19.7915 1.23223 20.7678L17.1421 36.6777C18.1184 37.654 19.7014 37.654 20.6777 36.6777C21.654 35.7014 21.654 34.1184 20.6777 33.1421L6.53553 19L20.6777 4.85786C21.654 3.88155 21.654 2.29864 20.6777 1.32233C19.7014 0.34602 18.1184 0.34602 17.1421 1.32233L1.23223 17.2322ZM3 21.5H75V16.5H3V21.5Z" fill="black"/>
-              </svg></div>
-           <div onclick="rightClick()" class="arrowR"><svg xmlns="http://www.w3.org/2000/svg" width="75" height="38" viewBox="0 0 75 38" fill="none">
-            <path d="M73.7678 20.7678C74.7441 19.7915 74.7441 18.2085 73.7678 17.2322L57.8579 1.32233C56.8816 0.34602 55.2986 0.34602 54.3223 1.32233C53.346 2.29864 53.346 3.88155 54.3223 4.85786L68.4645 19L54.3223 33.1421C53.346 34.1184 53.346 35.7014 54.3223 36.6777C55.2986 37.654 56.8816 37.654 57.8579 36.6777L73.7678 20.7678ZM0 21.5H72V16.5H0V21.5Z" fill="black"/>
-          </svg></div>
+            <div class="spkrsNav">
+                <div onclick="leftClick()" class="arrowL"><svg xmlns="http://www.w3.org/2000/svg" width="75" height="38"
+                        viewBox="0 0 75 38" fill="none">
+                        <path
+                            d="M1.23223 17.2322C0.255922 18.2085 0.255922 19.7915 1.23223 20.7678L17.1421 36.6777C18.1184 37.654 19.7014 37.654 20.6777 36.6777C21.654 35.7014 21.654 34.1184 20.6777 33.1421L6.53553 19L20.6777 4.85786C21.654 3.88155 21.654 2.29864 20.6777 1.32233C19.7014 0.34602 18.1184 0.34602 17.1421 1.32233L1.23223 17.2322ZM3 21.5H75V16.5H3V21.5Z"
+                            fill="black" />
+                    </svg></div>
+                <div onclick="rightClick()" class="arrowR"><svg xmlns="http://www.w3.org/2000/svg" width="75"
+                        height="38" viewBox="0 0 75 38" fill="none">
+                        <path
+                            d="M73.7678 20.7678C74.7441 19.7915 74.7441 18.2085 73.7678 17.2322L57.8579 1.32233C56.8816 0.34602 55.2986 0.34602 54.3223 1.32233C53.346 2.29864 53.346 3.88155 54.3223 4.85786L68.4645 19L54.3223 33.1421C53.346 34.1184 53.346 35.7014 54.3223 36.6777C55.2986 37.654 56.8816 37.654 57.8579 36.6777L73.7678 20.7678ZM0 21.5H72V16.5H0V21.5Z"
+                            fill="black" />
+                    </svg></div>
+            </div>
         </div>
     </div>
-</div>
 
 
-<!--     
+    <!--     
     sponsors page
      -->
-<div class="heading-section">
-      <h1 class="sponsor-heading">SPONSORS</h1>
+    <div class="heading-section">
+        <h1 class="sponsor-heading">SPONSORS</h1>
     </div>
     <div class="left-sponsors-section">
 
-      <!-- box 1 -->
-      <div class="sponsor-section">
-        <button class="btninst">
-          <img src="images/instb.png" alt="instagram" class="instb">
-        </button>
-        <button class="btnfcb">
-          <img src="images/fcbb.png" alt=" facebook" class="fcbb">
+        <!-- box 1 -->
+        <div class="sponsor-section">
+            <button class="btninst">
+                <img src="images/instb.png" alt="instagram" class="instb">
+            </button>
+            <button class="btnfcb">
+                <img src="images/fcbb.png" alt=" facebook" class="fcbb">
 
-        </button>
-        <img src="" alt="sponor" class="slogo">
+            </button>
+            <img src="" alt="sponor" class="slogo">
 
-      </div>
-<!-- box 2 -->
-      <div class="sponsor-section-1">
-        <button class="btn1inst">
-          <img src="images/instr.png" alt="instagram" class="instr">
+        </div>
+        <!-- box 2 -->
+        <div class="sponsor-section-1">
+            <button class="btn1inst">
+                <img src="images/instr.png" alt="instagram" class="instr">
 
-        </button>
+            </button>
 
-        <button class="btn1fcb">
-          <img src="images/fcbr.png" alt="facebook" class="fcbr">
-        </button>
-        <img src="" alt="sponor" class="slogo">
-      </div>
+            <button class="btn1fcb">
+                <img src="images/fcbr.png" alt="facebook" class="fcbr">
+            </button>
+            <img src="" alt="sponor" class="slogo">
+        </div>
 
-<!-- box 3 -->
-      <div class="sponsor-section-1">
-        <button class="btn1inst">
-          <img class="instr" src="images/instr.png" alt="instagram" class="instr">
+        <!-- box 3 -->
+        <div class="sponsor-section-1">
+            <button class="btn1inst">
+                <img class="instr" src="images/instr.png" alt="instagram" class="instr">
 
-        </button>
-        <button class="btn1fcb">
-          <img src="images/fcbr.png" alt="facebook" class="fcbr">
+            </button>
+            <button class="btn1fcb">
+                <img src="images/fcbr.png" alt="facebook" class="fcbr">
 
-        </button>
-        <img src="" alt="sponor" class="slogo">
-      </div>
+            </button>
+            <img src="" alt="sponor" class="slogo">
+        </div>
 
-<!-- box 4 -->
-      <div class="sponsor-section">
-        <button class="btninst">
-          <img src="images/instb.png" alt="instagram" class="instb">
+        <!-- box 4 -->
+        <div class="sponsor-section">
+            <button class="btninst">
+                <img src="images/instb.png" alt="instagram" class="instb">
 
-        </button>
-        <button class="btnfcb">
-          <img src="images/fcbb.png" alt="facebook" class="fcbb">
-        </button>
-        <img src="" alt="sponor" class="slogo">
-      </div>
-    </div>
-<!-- right section  -->
-    <div class="right-sponsors-section">
-
-<!-- box 5 -->
-
-      <div class="sponsor-section-1">
-        <button class="btn1inst">
-          <img src="images/instr.png" alt="instagram" class="instr">
-        </button>
-        <button class="btn1fcb">
-          <img src="images/fcbr.png" alt="facebook" class="fcbr">
-
-        </button>
-        <img src="" alt="sponor" class="slogo">
-      </div>
-
-<!-- box 6 -->
-
-      <div class="sponsor-section">
-        <button class="btninst">
-          <img src="images/instb.png" alt="instagram" class="instb">
-
-        </button>
-        <button class="btnfcb">
-          <img src="images/fcbb.png" alt="facebook" class="fcbb">
-        </button>
-        <img src="" alt="sponor" class="slogo">        
-      </div>
-
-<!-- box 7 -->
-
-      <div class="sponsor-section">
-        <button class="btninst">
-          <img src="images/instb.png" alt="instagram" class="instb">
-
-        </button>
-        <button class="btnfcb">
-          <img src="images/fcbb.png" alt="facebook" class="fcbb">
-    
-
-        </button>
-        <img src="" alt="sponor" class="slogo">
-      </div>
-
-<!-- box 8 -->
-
-      <div class="sponsor-section-1">
-        <button class="btn1inst">
-          <img src="images/instr.png" alt="instagram" class="fcbr">
-
-        </button>
-        <button class="btn1fcb">
-          <img src="images/fcbr.png" alt="facebook" class="fcbr">
-
-        </button>
-        <img src="" alt="sponor" class="slogo">
-
-
-      </div>
-    </div>
-    <div class="bottombox">
-      <img src="images/sun_img.jpg" alt="Equinox" class="sun_img">
-    </div>
-
-
-    
-<!-- ends here  -->
-     
- <div class="contactpage">
-    <div class="contact">
-        <div class="contactcontent">CONTACT US</div>
-    </div>
-    <div class="imagesection">
-         <img src="contact.jpeg" class="image" alt=""> 
-    </div>
-    <div class="mail">
-        <div class="content">
-            team@tedxnittrichy.com
+            </button>
+            <button class="btnfcb">
+                <img src="images/fcbb.png" alt="facebook" class="fcbb">
+            </button>
+            <img src="" alt="sponor" class="slogo">
         </div>
     </div>
-    <div class="phone">
-        <div class="content">+91 70046 03991</div>
+    <!-- right section  -->
+    <div class="right-sponsors-section">
+
+        <!-- box 5 -->
+
+        <div class="sponsor-section-1">
+            <button class="btn1inst">
+                <img src="images/instr.png" alt="instagram" class="instr">
+            </button>
+            <button class="btn1fcb">
+                <img src="images/fcbr.png" alt="facebook" class="fcbr">
+
+            </button>
+            <img src="" alt="sponor" class="slogo">
+        </div>
+
+        <!-- box 6 -->
+
+        <div class="sponsor-section">
+            <button class="btninst">
+                <img src="images/instb.png" alt="instagram" class="instb">
+
+            </button>
+            <button class="btnfcb">
+                <img src="images/fcbb.png" alt="facebook" class="fcbb">
+            </button>
+            <img src="" alt="sponor" class="slogo">
+        </div>
+
+        <!-- box 7 -->
+
+        <div class="sponsor-section">
+            <button class="btninst">
+                <img src="images/instb.png" alt="instagram" class="instb">
+
+            </button>
+            <button class="btnfcb">
+                <img src="images/fcbb.png" alt="facebook" class="fcbb">
+
+
+            </button>
+            <img src="" alt="sponor" class="slogo">
+        </div>
+
+        <!-- box 8 -->
+
+        <div class="sponsor-section-1">
+            <button class="btn1inst">
+                <img src="images/instr.png" alt="instagram" class="fcbr">
+
+            </button>
+            <button class="btn1fcb">
+                <img src="images/fcbr.png" alt="facebook" class="fcbr">
+
+            </button>
+            <img src="" alt="sponor" class="slogo">
+
+
+        </div>
     </div>
-    <div class="address">
-        <div class="content">National Institute of Technology, Tiruchirappalli, Tamil Nadu, India - 650012</div>
+    <div class="bottombox">
+        <img src="images/sun_img.jpg" alt="Equinox" class="sun_img">
     </div>
-    <div class="facebook">
- 
-        <a href="#" class="icon"><i class='bx bxl-facebook-circle'></i></a>
+
+
+
+    <!-- ends here  -->
+
+    <div class="contactpage">
+
+        <div class="leftcontactcontainer">
+            <div class="contact">
+                <div class="contactcontent">CONTACT US</div>
+            </div>
+
+            <div class="mail">
+                <div class="content">
+                    team@tedxnittrichy.com
+                </div>
+            </div>
+
+            <div class="phone">
+                <div class="content">+91 70046 03991</div>
+            </div>
+
+            <div class="address">
+                <div class="content">National Institute of Technology, Tiruchirappalli, Tamil Nadu, India - 650012</div>
+            </div>
+
+            <div class="contacticonscontainer">
+                <div class="facebook">
+                    <a href="#" class="icon"><i class='bx bxl-facebook-circle'></i></a>
+                </div>
+                <div class="instagram">
+                    <a href="https://www.instagram.com/tedxnittrichy/" target="_blank" class="icon"><i
+                            class='bx bxl-instagram'></i></a>
+                </div>
+                <div class="linkedin">
+                    <a href="https://www.linkedin.com/company/tedxnittrichy/mycompany/" target="_blank" class="icon"><i
+                            class='bx bxl-linkedin-square'></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="rightcontactcontainer">
+            <div class="imagesection">
+                <img src="contact.jpeg" class="image" alt="">
+            </div>
+            <div class="copyright">
+                <div class="content">Copyrights Reserved, 2023</div>
+            </div>
+        </div>
     </div>
-    <div class="instagram">
-        <a href="https://www.instagram.com/tedxnittrichy/"target="_blank" class="icon"><i class='bx bxl-instagram' ></i></a>
- 
-    </div>
-    <div class="linkedin">
-        <a href="https://www.linkedin.com/company/tedxnittrichy/mycompany/" target="_blank" class="icon"><i class='bx bxl-linkedin-square' ></i></a>
- 
-    </div>
-     <div class="copyright">
-        <div class="content">Copyrights Reserved, 2023</div>
-     </div>
-</div>
 
     <script src="app.js"></script>
 </body>
+
 </html>
