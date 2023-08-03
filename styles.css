@@ -25,12 +25,15 @@ body{
     display: inline-block;
     color: white;
 }
+.timer{
+    display: flex;
+}
 #tedxlogo{
     display: block;
     margin: 0 auto;
     margin-top: 2em;
 }
-#title{
+#titleLanding{
     text-align: center;
     font-size: 90px;
     margin-top: 0px;
@@ -75,12 +78,10 @@ body{
 #logocount{
     list-style: none;
     display: flex;
+    justify-content: space-evenly;
 }
 #logocount li{
     margin: 2px;
-}
-    margin: 0px;
-    background-color: #000;
 }
 /* 
 landing page 
