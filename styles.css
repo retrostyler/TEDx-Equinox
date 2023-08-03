@@ -431,9 +431,7 @@ border-radius: 40px;
     height: 26px;
     left: calc(50% - 26px/2 + 0.5px);
     top: calc(50% - 26px/2);
-    background: #232323;
-    mix-blend-mode: multiply;
-
+    background: #ff2b06;
 }
 .fcbb{
     position: absolute;
@@ -441,8 +439,7 @@ border-radius: 40px;
     height: 25.93px;
     left: calc(50% - 26px/2 + 0.5px);
     top: calc(50% - 25.93px/2 - 0.03px);
-    background: #232323;
-    mix-blend-mode: multiply;
+    background: #ff2b06;
 
 }
 .btn1inst{
@@ -473,8 +470,7 @@ border-radius: 40px;
     height: 25.93px;
     left: calc(50% - 26px/2 + 0.5px);
     top: calc(50% - 25.93px/2 - 0.03px);
-    background: #FF2B06;
-    mix-blend-mode: multiply;
+    background: #232323;
 }
 .instr{
     position: absolute;
@@ -482,7 +478,6 @@ border-radius: 40px;
     height: 26px;
     left: calc(50% - 26px/2 + 0.5px);
     top: calc(50% - 26px/2);
-    mix-blend-mode: multiply;
 
 }
 .slogo{
