@@ -299,10 +299,19 @@ landing page
         line-height: normal;
         margin-top: -1vh;
     }
+}
+
+@media screen and (max-width: 420px){
+    .speakers{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }  
+
+}
 
 /*     sponsors section  */
-
-    .heading-section {
+.heading-section {
     position: absolute;
     width: 595px;
     height: 140px;
@@ -483,18 +492,9 @@ landing page
     left: calc(50% - 442.87px/2 - 0.07px);
     top: calc(50% - 110px/2);
 }
+
 /*  ends here */
 
-}
-
-@media screen and (max-width: 420px){
-    .speakers{
-        display: flex;
-        flex-direction: column;
-        width: fit-content;
-    }  
-
-}
 .aboutpage{
     display: flex;
     justify-content: center; 
